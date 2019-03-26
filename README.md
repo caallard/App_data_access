@@ -16,10 +16,12 @@ Access to data in a Qlik Sense app
 
 
 ## Usage
-Start the service by running "node index.js".
+Start the service by running:
 
-1. You can access to the list of tables of the app  http://[servername]:8080/[appId]/table . The data returned is an Json array of tables names.
-2. You can access to the data of a table  http://[servername]:8080/[appId]/table/[TableName] . The data returned is an Json array of objects.
+`node index.js` 
+
+1. You can access to the list of tables of the app **http://[servername]:8080/[appId]/table** . The data returned is an Json array of tables names.
+2. You can access to the data of a table **http://[servername]:8080/[appId]/table/[TableName]** . The data returned is an Json array of objects.
 
 ## Links & references
-Inspiration to this project came from [butler CW] (https://github.com/ptarmiganlabs/butler-cw) build by Ptarmigan Labs.
+Inspiration to this project came from [butler CW](https://github.com/ptarmiganlabs/butler-cw) build by Ptarmigan Labs.
