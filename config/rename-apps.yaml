@@ -1,0 +1,8 @@
+# Rename this file to apps.yaml, then edit it as needed.
+# This file is used to specifiy what Qlik Sense apps can be opened by the API
+#
+
+apps:
+  - server: myQlikserver
+    appId: 12345678-901234567-abcd-efgh12345678
+    appDescription: MonApp

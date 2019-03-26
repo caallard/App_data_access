@@ -1,3 +1,15 @@
+#####Custom
+# Certificates directory
+certificates/
+
+# Config files
+config/apps.yaml
+config/default.json
+
+# Start
+start.bat
+
+#####NodeJS
 # Logs
 logs
 *.log

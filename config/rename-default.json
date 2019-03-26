@@ -1,0 +1,25 @@
+// Rename this file to default.json, and fill in data as needed below.
+
+{
+    // Possible log levels are silly, debug, verbose, info, warn, error
+    "defaultLogLevel": "debug",
+
+    // Paths to client certificates to use when connecting to Sense server. Can be pem or pvk/cer
+    // remove or comment out if running on desktop
+    "clientCertPath": "C:/path_to_certificates/client.pem",
+    "clientCertKeyPath": "C:/path_to_certificates/client_key.pem",
+
+    //QIX version to use
+    "qixVersion": "12.67.2",
+    // Config on what apps should be cached
+    "appConfig": {
+        "diskConfigFile": "./config/apps.yaml",
+    },    
+
+    // Is connection to Sense engine secure (https)?
+    "isSecure": true,
+
+    // Directory where log files are stored (no trailing / )
+    "logDirectory": "C:/path_to_logs/logs"
+    
+}
