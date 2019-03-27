@@ -1,4 +1,4 @@
-# App_data_access
+# App data access
 Access to data in a Qlik Sense app through a web api witch deliver data in JSON.
 
 ## Installation and setup
